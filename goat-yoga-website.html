@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goat Yoga NC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .page {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#goats">Goat Breeds</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+
+    <div class="container">
+        <!-- About Page -->
+        <div id="about" class="page">
+            <h1>Goat Yoga in North Carolina</h1>
+            <h2>About Us</h2>
+            <p>Goat yoga is a unique fitness experience that combines traditional yoga practice with the playful interaction of adorable goats. Originating as a creative farm activity, goat yoga has grown into a popular wellness trend that brings joy, laughter, and unexpected therapeutic benefits.</p>
+            
+            <h3>Benefits of Goat Yoga</h3>
+            <ul>
+                <li>Stress Reduction: Interacting with animals can lower cortisol levels</li>
+                <li>Improved Mental Health: Goat interactions promote happiness and reduce anxiety</li>
+                <li>Unique Exercise Experience: Adds fun and unpredictability to yoga practice</li>
+            </ul>
+
+            <h3>Safety and Sanitary Concerns</h3>
+            <p>We prioritize participant and animal safety:</p>
+            <ul>
+                <li>Goats are regularly health-checked and vaccinated</li>
+                <li>Yoga mats are sanitized before and after each session</li>
+                <li>Hand sanitization stations are available</li>
+                <li>Participants wear closed-toe shoes</li>
+            </ul>
+
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:goatyoga@nc.com">goatyoga@nc.com</a></p>
+            <p>Phone: (919) 555-GOAT</p>
+        </div>
+
+        <!-- Goat Breeds Page -->
+        <div id="goats" class="page">
+            <h1>Goat Breeds</h1>
+            <table>
+                <tr>
+                    <th>Breed</th>
+                    <th>Origin</th>
+                    <th>Typical Use</th>
+                    <th>Temperament</th>
+                </tr>
+                <tr>
+                    <td>Nigerian Dwarf</td>
+                    <td>West Africa</td>
+                    <td>Milk Production, Yoga Companions</td>
+                    <td>Friendly, Playful</td>
+                </tr>
+                <tr>
+                    <td>Pygmy</td>
+                    <td>West Africa</td>
+                    <td>Companionship, Small Farm</td>
+                    <td>Energetic, Social</td>
+                </tr>
+                <tr>
+                    <td>Alpine</td>
+                    <td>French Alps</td>
+                    <td>Milk Production</td>
+                    <td>Calm, Intelligent</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Feedback Page -->
+        <div id="feedback" class="page">
+            <h1>Feedback Form</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="experience">Your Goat Yoga Experience:</label>
+                <textarea id="experience" name="experience" rows="5" required></textarea>
+
+                <label for="rating">Rate Your Experience:</label>
+                <select id="rating" name="rating">
+                    <option value="5">Excellent</option>
+                    <option value="4">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="2">Fair</option>
+                    <option value="1">Poor</option>
+                </select>
+
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
